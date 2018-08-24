@@ -1,3 +1,4 @@
+package streams_example
 import akka.stream._
 import akka.stream.scaladsl._
 
@@ -11,10 +12,7 @@ import java.nio.file.Paths
 
 final case class Message(num: Int)
 
-
-
-
-object main extends App {
+object streams_example {
   val source: Source[Int, NotUsed] = Source(1 to 1000)
   val sink1: Sink[Int, Future[IOResult]] = Flow[Int]
     .map(n => n.toString())
@@ -47,7 +45,7 @@ object main extends App {
     }
   }  )
 
-  g.run()
-
-
+  def apply() {
+    g.run()
+  }
 }

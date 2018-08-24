@@ -3,3 +3,9 @@
 /c++/order_tracker/dist/
 /c++/ThreadPool/build/
 /c++/ThreadPool/dist/
+Debug
+*.exe
+*.log
+*.pdb
+**/.idea
+target
