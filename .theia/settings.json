@@ -1,0 +1,8 @@
+{
+    "editor.renderWhitespace" : "all",
+    "editor.tabSize": 4,
+
+    // Insert spaces when pressing Tab.
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": true
+}
