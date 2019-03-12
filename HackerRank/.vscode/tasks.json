@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Make",
+            "type": "shell",
+            "command": "make ${input:Make}",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "Make",
+            "type": "promptString",
+            "description": "Target ? "
+            // type specific configuration attributes
+        }
+    ]
+}
