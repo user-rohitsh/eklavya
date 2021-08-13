@@ -10,3 +10,6 @@ Debug
 **/.idea
 target
 **/.DS_Store
+*.class
+.bloop
+.metals
